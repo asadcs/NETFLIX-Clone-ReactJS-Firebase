@@ -2,10 +2,12 @@ import requests from "./requests";
 import "./App.css";
 import Row from "./Row";
 import Banner from "./Banner";
+import Nav from "./Nav";
 
 function App() {
   return (
     <div className="app">
+      <Nav />
       <Banner></Banner>
       <Row title="Trending now" fetchUrl={requests.fetchTrending} isLarge />
       <Row title="Top Rated" fetchUrl={requests.fetchTrending} />

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import requests from "./requests";
 import axios from "./axios";
-// import "./Banner.css";
+import "./Banner.css";
 const base_url = "https://image.tmdb.org/t/p/original/";
 
 function Banner() {
